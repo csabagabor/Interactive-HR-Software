@@ -1,0 +1,15 @@
+svg {
+  width: 40px;
+  top: 0;
+  left: 0;
+  position: fixed;
+}
+h1 {
+  position: fixed;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  transform: translateY(-50%);
+  opacity: 0.5;
+}

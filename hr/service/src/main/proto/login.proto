@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option java_multiple_files = true;
+package com.gabor;
+
+message LoginRequest {
+    string token = 1;
+}
+
+message LoginResponse {
+    string role = 1;
+    string email = 2;
+}
+
+service LoginService {
+    rpc login(LoginRequest) returns (LoginResponse);
+}
